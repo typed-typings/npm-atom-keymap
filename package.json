@@ -1,0 +1,20 @@
+{
+  "private": true,
+  "scripts": {
+    "build": "typings bundle -o out/index.d.ts && tsc",
+    "lint": "echo linting... && tslint \"**/*.ts\" -e \"source/**\" -e \"source-test/**\" -e \"out/**\" -e \"node_modules/**\" -e \"typings/**\"",
+    "test": "apm test",
+    "watch": "onchange -w \"**/*.ts\" -i -e \"out/**\" -- npm -s run build+test",
+    "publish": "npm -s run lint+build+test && echo please publish to typings/registry",
+    "build+test": "npm run build && npm test",
+    "lint+build+test": "npm run lint && npm run build+test",
+    "prepublish": "typings install"
+  },
+  "devDependencies": {
+    "atom-keymap": "6.3.2",
+    "onchange": "^2.4.0",
+    "tslint": "^3.10.2",
+    "tslint-config-typings": "^0.2.3",
+    "typings": "^1.0.4"
+  }
+}

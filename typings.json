@@ -1,0 +1,17 @@
+{
+  "name": "atom-keymap",
+  "main": "lib/keymap-manager.d.ts",
+  "homepage": "https://github.com/atom/atom-keymap#readme",
+  "version": "6.3.2",
+  "globalDevDependencies": {
+    "expect": "registry:global/expect#1.13.4+20160211003958",
+    "jasmine": "registry:dt/jasmine#2.2.0+20160505161446",
+    "node": "registry:env/node#4.0.0+20160507210304"
+  },
+  "devDependencies": {
+    "blue-tape": "registry:npm/blue-tape#0.2.0+20160418015423"
+  },
+  "dependencies": {
+    "event-kit": "registry:npm/event-kit#2.0.0+20160526055758"
+  }
+}
