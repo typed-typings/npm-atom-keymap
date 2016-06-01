@@ -31,3 +31,8 @@ e.g. if you are creating typings for `chai@3.5.0`, then:
   // ...
 }
 ```
+
+## Note
+
+Currently the test is not running.
+Having the same issue as described [here](https://github.com/atom/atom-keymap/issues/134)
