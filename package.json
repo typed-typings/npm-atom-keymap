@@ -11,10 +11,10 @@
     "prepublish": "typings install"
   },
   "devDependencies": {
-    "atom-keymap": "6.3.2",
-    "onchange": "^2.4.0",
-    "tslint": "^3.10.2",
-    "tslint-config-typings": "^0.2.3",
-    "typings": "^1.0.4"
+    "atom-keymap": "8.1.2",
+    "onchange": "^3.2.1",
+    "tslint": "^5.2.0",
+    "tslint-config-typings": "^0.3.1",
+    "typings": "^2.1.1"
   }
 }
