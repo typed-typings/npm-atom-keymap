@@ -1,5 +1,7 @@
 # Typed Atom Keymap  [![Build Status](https://travis-ci.org/typed-typings/npm-atom-keymap.svg?branch=master)](https://travis-ci.org/typed-typings/npm-atom-keymap)
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/types/npm-atom-keymap.svg)](https://greenkeeper.io/)
+
 
 The type definition for [`atom-keymap`](https://github.com/atom/atom-keymap.git)
 
